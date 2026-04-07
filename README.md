@@ -1,4 +1,4 @@
-# ⚡ Do the Math Calculator
+Calculator
 
 A simple and modern calculator built using HTML, CSS, and JavaScript.
 
