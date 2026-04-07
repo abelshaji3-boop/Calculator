@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(157, 151, 151);
+}
+
+#title{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 3px;   /* 👈 spacing between letters */
+    color: #111;
+    text-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* make calculator smaller */
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: rgb(19, 18, 18);
+    border-radius: 25px;
+    width: 320px;   /* 👈 FIX (was 500px) */
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* fix huge display */
+#display{
+    width: 100%;
+    padding: 15px;
+    font-size: 2.5rem;   /* 👈 FIX (was 10rem ❌ too big) */
+    text-align: left;
+    border: none;
+    background-color: rgb(11, 11, 11);
+    color: white;
+
+    overflow: hidden;
+}
+
+/* grid */
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 15px;
+}
+
+/* smaller buttons */
+button{
+    width: 65px;   /* 👈 FIX */
+    height: 65px;  /* 👈 FIX */
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(49, 49, 52);
+    color: white;
+    font-size: 1.5rem;  /* 👈 FIX */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(70, 67, 67);
+}
+
+button:active{
+    background-color: rgb(159, 155, 155);
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+/* operator style */
+.operator-btn{
+    background-color: darkgoldenrod;
+}
+
+.operator-btn:hover{
+    background-color: rgb(177, 144, 59);
+}
+
+.operator-btn:active{
+    background-color: rgb(241, 216, 152);
+}
+
