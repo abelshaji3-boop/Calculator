@@ -1,3 +1,7 @@
+
+## 🌐 Live Demo
+👉 https://abelshaji3-boop.github.io/Calculator/
+
 Calculator
 
 A simple and modern calculator built using HTML, CSS, and JavaScript.
