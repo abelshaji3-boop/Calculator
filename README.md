@@ -1,6 +1,6 @@
 
-## 🌐 Live Demo
-👉 https://abelshaji3-boop.github.io/Calculator/
+## 🌐 Live Demo 
+[👉Click here to view](https://abelshaji3-boop.github.io/Calculator/)
 
 Calculator
 
